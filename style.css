@@ -1,5 +1,5 @@
 body {
-margin: 0;
+margin: 0 auto;
 font-family: "Roboto", sans-serif;
 font-size: 14px;
 color: #4E4E4E;
@@ -423,11 +423,13 @@ color: #4E4E4E;
      height: 468px;
      display: flex;
      justify-content:center;
-    align-items:center;
+     padding-top: 120px;
+    
  }
 
  .download_section_content{
 width: 483px;
+
 
  }
 .title_download_sec{
@@ -453,4 +455,59 @@ color: #4E4E4E;
 text-align: center;
 margin-bottom: 30px;
 }
+
+.download_buttons{
+
+width: 406px;
+height: 50px;
+display: flex;
+align-items: center;
+
+padding-left: 15px;
+
+}
+.download__link{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+   
+   
     
+}
+.download__link-title{
+    width: 128px;
+    height:50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.download__link-image{
+  
+   display: flex; 
+    width: 60px;
+    height:50px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+    
+    }
+
+       
+.download_blue{
+    background-color: #00AFDB;
+}
+
+.download_blue_icon{
+
+    background-color:#009CC2;
+}
