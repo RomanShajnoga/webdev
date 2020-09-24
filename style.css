@@ -423,13 +423,11 @@ color: #4E4E4E;
      height: 468px;
      display: flex;
      justify-content:center;
-     padding-top: 120px;
-    
+    align-items:center;
  }
 
  .download_section_content{
 width: 483px;
-
 
  }
 .title_download_sec{
@@ -461,22 +459,19 @@ margin-bottom: 30px;
 width: 406px;
 height: 50px;
 display: flex;
+justify-content:space-around;
 align-items: center;
-
-padding-left: 15px;
 
 }
 .download__link{
     display: flex;
     align-items: center;
-    margin: 0 15px;
    
-   
-    
 }
+
 .download__link-title{
     width: 128px;
-    height:50px;
+    height:100%;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -484,30 +479,20 @@ padding-left: 15px;
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
-    /* text-align: center; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    text-align: center;
+   
+     
 }
 
 .download__link-image{
   
-   display: flex; 
-    width: 60px;
-    height:50px;
-   text-align: center;
-   align-items: center;
-   justify-content: center;
     
+    width: 60px;
+    height: 100%;
+  
     }
 
-       
+    
 .download_blue{
-    background-color: #00AFDB;
-}
-
-.download_blue_icon{
-
-    background-color:#009CC2;
+    background: #00AFDB;
 }
